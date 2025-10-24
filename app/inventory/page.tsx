@@ -2,7 +2,7 @@ import Sidebar from "@/components/sidebar";
 import { prisma } from "@/lib/prisma";
 import React from "react";
 import { getCurrentUser } from "@/lib/auth";
-import deleteProduct from "@/lib/actions/products";
+import { deleteProduct } from "@/lib/actions/products";
 import Pagination from "@/components/pagination";
 
 const InventoryPage = async ({
